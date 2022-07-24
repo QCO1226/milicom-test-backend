@@ -12,6 +12,7 @@ Para correr el proyecto se deben seguir los siguientes pasos:
 
 Notas:
 - El front construido para este proyecto, lo puede encontrar en el siguiente repositorio: https://github.com/QCO1226/milicom-test-frontend
+- El enlace de origen especificado en la configuración del CORS, es por defecto http://localhost:3000/. De correr el front en otro puerto, se debe realizar el cambio en este enlace.
 - El servidor correrá por defecto en el puerto 4000 de no ser especificado un puerto en las variables de entorno.
 - Luego de que el servidor esté funcionando, se puede probar el api utilizando postman, curl, etc.
 - He desplegado una versión del back de este proyecto en la nube, puede encontrarlo en el siguiente enlace: https://api-milicomtest.herokuapp.com/
