@@ -38,6 +38,6 @@ app.get('/comic/:id', (req, res) =>{
         })
 })
 
-app.listen(4000, ()=>{
+app.listen({port: process.env.PORT || 4000}, ()=>{
     console.log("Server is running")
 })
